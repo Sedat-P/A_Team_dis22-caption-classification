@@ -95,8 +95,8 @@ Zirkelschluss und erhält die Caption als unabhängige Informationsquelle.
 Voraussetzung: Python 3.10 oder neuer.
 
 ```bash
-git clone <REPO-URL>
-cd <REPO-VERZEICHNIS>
+git clone https://github.com/Sedat-P/A_Team_dis22-caption-classification
+cd A_Team_dis22-caption-classification
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
