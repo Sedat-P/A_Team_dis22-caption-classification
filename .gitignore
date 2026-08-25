@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren
+.vscode/
+.idea/
+
+# Rohdaten (zu gross fuers Repository, siehe data/README.md)
+data/*.json
+data/*.pdf
+data/jsons/
+data/pdfs/
+
+# Die Splits gehoeren AUSDRUECKLICH ins Repository -
+# ohne sie ist nichts reproduzierbar.
+data/*.csv
+!data/train_split.csv
+!data/eval_split.csv
+
+# Generierte Ergebnisdateien
+results/corpus/
+figures_classified.csv
+keywords_derived.csv
+*_eval_results.csv
+*_compare_results.csv
+*_evaluation.xlsx
+*_goldeval.xlsx
+*_goldeval.csv
+~$*.xlsx
+
+# Referenzergebnisse gehoeren ins Repository
+!results/eval_split_goldeval.csv
+!results/eval_split_goldeval.xlsx

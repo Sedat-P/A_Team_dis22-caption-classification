@@ -1,0 +1,10 @@
+# Zusatz-Abhaengigkeiten NUR fuer experimental/prepare_annotation_sets_clip.py
+# (CLIP-basierte visuelle Vorsortierung der Annotationsstichprobe).
+#
+# Achtung: torch ist ein Download von rund 2,5 GB. Fuer die Reproduktion
+# der berichteten Ergebnisse wird dieses Skript NICHT benoetigt.
+#
+#   pip install -r requirements-clip.txt
+
+torch>=2.0
+open_clip_torch>=2.20

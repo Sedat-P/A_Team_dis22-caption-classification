@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Arbeit verwenden, zitieren Sie sie bitte wie folgt."
+title: "Die visuelle Sprache wissenschaftlicher Preprints: Caption-basierte Klassifikation von Abbildungen auf bioRxiv"
+type: software
+authors:
+  - family-names: "Salkovic"
+    given-names: "Ismail"
+  - family-names: "Arslan"
+    given-names: "Talha"
+  - family-names: "Palaoglu"
+    given-names: "Sedat Necip"
+year: 2026
+license: MIT
