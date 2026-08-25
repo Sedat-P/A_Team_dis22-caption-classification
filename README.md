@@ -272,7 +272,7 @@ https://faculty.washington.edu/billhowe/publications/pdfs/lee2016viziometrics.pd
 
 - Ismail Salkovic
 - Talha Arslan
-- Sedat Necip Palaoglu
+- Necip Sedat Palaoglu
 
 Technische Hochschule Köln, Projektmodul DIS22 (Sommersemester 2026).
 
