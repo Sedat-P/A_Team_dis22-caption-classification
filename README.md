@@ -160,7 +160,7 @@ Ergänzend erzeugt `make_eval_set.py` die zusätzliche Stichprobe für das Evalu
 ### 2. Paper-reine Aufteilung
 
 ```bash
-python make_paper_split.py <annotation_train.csv> <annotation_eval.csv>
+python make_paper_split.py annotation_train.csv annotation_eval.csv
 ```
 Führt die annotierten Dateien zusammen und teilt sie nach Preprint getrennt in
 `train_split.csv` (943 Abbildungen) und `eval_split.csv` (311 Abbildungen).
@@ -194,7 +194,7 @@ steht in [`data/README.md`](data/README.md).
 ### 5. Anwendung auf einen Gesamtkorpus
 
 ```bash
-python run_full_corpus.py ../data/train_split.csv <json-verzeichnis> ../results/corpus
+python run_full_corpus.py ../data/train_split.csv ../SampleData/output ../results/corpus
 ```
 Trainiert das finale Modell und wendet es auf alle JSON-Dateien im angegebenen Verzeichnis
 an. Captions ohne inhaltlichen Text (reine Label-Captions wie „Fig. 3“) werden über
