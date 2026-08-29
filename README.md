@@ -152,10 +152,10 @@ fertige Dateien in `results/`.
 ```bash
 python annotate.py
 ```
-Grafisches Annotationstool: rendert jede Abbildung über die JSON-Koordinaten passgenau aus
-dem Original-PDF und erlaubt reine Tastaturbedienung
-(`1` = Plot, `2` = Diagram, `3` = Photo, `4` = Multi-Label).
-Ergänzend erzeugt `make_eval_set.py` die zusätzliche Stichprobe für das Evaluationsset.
+
+Grafisches Annotationstool: rendert jede Abbildung über die JSON-Koordinaten passgenau aus dem Original-PDF und erlaubt reine Tastaturbedienung (`1` = Plot, `2` = Diagram, `3` = Photo, `4` = Multi-Label).
+
+Nach dem Start werden nacheinander die **Annotations-CSV** (eine beliebige `.csv`-Datei aus dem Ordner `data`), die **JSON-Dateien** (Ordner `SampleData/output`) und die **PDFs** (Ordner `SampleData/pdfs`) ausgewählt. Ergänzend erzeugt `make_eval_set.py` die zusätzliche Stichprobe für das Evaluationsset.
 
 ### 2. Paper-reine Aufteilung
 
